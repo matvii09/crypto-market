@@ -1,0 +1,9 @@
+@import 'Styles/mixins';
+
+.CryptoTable {
+  margin-top: 20px;
+  .bold-text {
+    font-weight: bold;
+    color: gray;
+  }
+}

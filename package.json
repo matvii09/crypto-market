@@ -1,0 +1,93 @@
+{
+  "name": "crypto-app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "https://liquality.io/swap/agent",
+  "dependencies": {
+    "@ant-design/icons": "^4.1.0",
+    "antd": "^4.2.0",
+    "classnames": "^2.2.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "formik": "^2.1.5",
+    "formik-antd": "^2.0.1",
+    "http-proxy-middleware": "^0.20.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "typescript": "3.6.4",
+    "webpack-ant-icon-loader": "^1.0.8"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "test": "CI=true react-app-rewired test",
+    "build": "react-app-rewired build",
+    "lint": "eslint '**/*.ts' '**/*.tsx' --ignore-pattern node_modules/",
+    "fix-eslint": "eslint '**/*.ts' '**/*.tsx' --ignore-pattern node_modules/ --fix",
+    "eject": "react-scripts eject"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint"
+    }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/plugin-transform-typescript": "^7.7.4",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "@types/classnames": "^2.2.9",
+    "@types/jest": "24.0.23",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "12.12.8",
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.4",
+    "@types/react-router-dom": "^5.1.2",
+    "@types/react-test-renderer": "^16.9.2",
+    "@typescript-eslint/eslint-plugin": "^2.7.0",
+    "@typescript-eslint/parser": "^2.7.0",
+    "babel-plugin-import": "^1.12.2",
+    "babel-plugin-root-import": "^6.4.1",
+    "customize-cra": "^0.9.1",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-typescript": "^6.3.0",
+    "eslint-config-prettier": "^6.6.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "react-app-rewired": "^2.1.5",
+    "react-test-renderer": "^16.13.1",
+    "source-map-explorer": "^2.1.1",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^4.1.0"
+  }
+}

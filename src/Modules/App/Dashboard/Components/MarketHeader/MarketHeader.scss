@@ -1,0 +1,19 @@
+@import 'Styles/mixins';
+
+.MarketHeader {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .Title {
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+  .Spinner {
+    span {
+      font-size: 16px;
+      color: #70c7fd;
+      margin-left: 5px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import 'Styles/mixins';
+
+.Refresher {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .Title {
+    margin-right: 10px;
+  }
+}

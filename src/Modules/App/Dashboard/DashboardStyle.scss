@@ -1,0 +1,20 @@
+@import 'Styles/mixins';
+
+.Dashboard {
+  .Container {
+    margin: 20px;
+    background: white;
+    padding: 20px;
+    .Toolbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .Header {
+    padding: 20px;
+    background: white;
+  }
+}
